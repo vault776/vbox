@@ -6,7 +6,7 @@
       "key": "vault776",
       "name": "vault776",
       "type": 1,
-      "api": "https://github.com/vault776/vbox/test/play.json",
+      "api": "https://vault776.github.io/vbox/test/play.json",
       "searchable": 0, 
       "quickSearch": 0,
       "filterable": 0,
@@ -718,7 +718,7 @@
     {
       "name": "vault776直播",
       "type": 0,
-      "url": "https://github.com/vault776/vbox/test/live.txt",
+      "url": "https://vault776.github.io/vbox/test/live.txt",
       "playerType": 1
     }
   ]
