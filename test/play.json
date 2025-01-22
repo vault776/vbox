@@ -1,0 +1,24 @@
+{
+	"code": 1,
+	"msg": "数据列表",
+	"page": 1,
+	"pagecount": 1,
+	"limit": "20",
+	"total": 1,
+	"list": [{
+		"vod_id": 107021,
+		"vod_name": "江湖路远你我缘分已尽",
+		"type_name": "E推荐",
+		"vod_en": "jianghuluyuanniwoyuanfenyijin",
+		"vod_time": "2025-01-15 13:00:29",
+		"vod_remarks": "全68集",
+        "vod_pic": "https:/img9.doubanio.com/view/photo/s_ratio_poster/public/p2656327176.webp",
+		"vod_play_from": "E定制",
+        "vod_content": "vod_play_url,地址可以多个连写（格式:集数￥链接#, 最后一个不用#），同时可以是mp4,m3u8，并且可以直接是带播放器的html详情页，比如(https://www.kuqimv.com/play/1.html)。由XXX整理，根据XX同名小说改编，人气爆棚",
+        "vod_play_url":"1$https://www.tootootool.com/wp-content/uploads/2020/11/big_buck_bunny_720p_1mb.mp4#第02集$https://www.kuqimv.com/play/1.html#第03集$https://saohuo.tv/play/48828-0-3.html#第04集$https://vod3.buycar5.cn/share/EtGK2XPmuzygMFmE#第05集$https://vod3.buycar5.cn/share/MC1U1bcQrGgVxF6h#第06集$https://vod3.buycar5.cn/share/gEtYSq6IX9KWPykl#第07集$https://vod3.buycar5.cn/share/OEMBq5ujsPaq8Sy7#第08集$https://vod3.buycar5.cn/share/bynmQTMBQwsVHtkn#第09集$https://vod3.buycar5.cn/share/Th7aQDVPOT1p6Cib#第10集$https://vod3.buycar5.cn/share/8AaZzRvh3fFk43Mi#第11集$https://vod3.buycar5.cn/share/YzEk819PQphuqDgL#第12集$https://vod3.buycar5.cn/share/vdAGJhlSg0o1yzcA$$$第01集$https://vod3.buycar5.cn/20210410/iWay2ycC/index.m3u8#第02集$https://vod3.buycar5.cn/20210410/5DpcrSCA/index.m3u8#第03集$https://vod3.buycar5.cn/20210410/wVdGBPgj/index.m3u8#第04集$https://vod3.buycar5.cn/20210410/cUVpM93e/index.m3u8#第05集$https://vod3.buycar5.cn/20210410/NWALmXkH/index.m3u8#第06集$https://vod3.buycar5.cn/20210410/lXZKFL7d/index.m3u8#第07集$https://vod3.buycar5.cn/20210411/3gQEOdxL/index.m3u8#第08集$https://vod3.buycar5.cn/20210411/yMLR7Fsz/index.m3u8#第09集$https://vod3.buycar5.cn/20210411/vMtFz4in/index.m3u8#第10集$https://vod3.buycar5.cn/20210412/EOwKfgwt/index.m3u8#第11集$https://vod3.buycar5.cn/20210412/xRT9FEjR/index.m3u8#第12集$https://vod3.buycar5.cn/20210412/Q6krcXYC/index.m3u8"
+	}],
+	"class": [{
+		"type_id": 1,
+		"type_name": "E推荐2"
+	}]
+}

@@ -1,0 +1,13 @@
+参考配置来源：
+http://yuan.haitangw.net/tv/  （多线路和包括直播源）
+
+官网：https://www.haitangw.cc/7118.html
+
+直播配置： http://yuan.haitangw.net/ZB/user_result.txt
+
+也可以自己找m3u8直播地址，然后配置进去即可
+tvbox直播源是可以支持m3u8的，可以做一个txt或m3u8结尾的文件，把直播清单按一行一行的方式写上去就可以了
+
+
+"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737018909312/f01162.txt;md5;5eaae4b083c5fc6c47c1cc0a204364b2",
+
