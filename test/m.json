@@ -1,12 +1,37 @@
 {
   "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737018909312/f01162.txt;md5;5eaae4b083c5fc6c47c1cc0a204364b2",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
+  "logo": "https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
+  "lives": [
+    {
+      "name": "vault776蓝奏",
+      "type": 0,
+      "url": "https://api.hanximeng.com/lanzou/?type=down&url=https://wwzd.lanzn.com/ibyQh2lp4sbc",
+      "playerType": 1
+    },
+    {
+      "name": "vault776直播gitio",
+      "type": 0,
+      "url": "https://vault776.github.io/vbox/test/live.txt",
+      "playerType": 1
+    }
+  ],
   "sites": [
     {
-      "key": "vault776",
-      "name": "vault776",
+      "key": "vault776蓝奏",
+      "name": "vault776蓝奏",
       "type": 1,
-      "api": "https://vault776.github.io/vbox/test/play.json",
+      "api": "https://api.hanximeng.com/lanzou/?type=down&url=https://wwzd.lanzn.com/i4YAF2lp64od",
+      "searchable": 0, 
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 1
+    },
+    {
+      "key": "vault776Gitio",
+      "name": "vault776Gitio",
+      "type": 1,
+      "api": "https://vault776.github.io/vbox/test/play.txt",
       "searchable": 0, 
       "quickSearch": 0,
       "filterable": 0,
@@ -712,14 +737,6 @@
       "quickSearch": 0,
       "changeable": 0
     }
-  ],
-  "logo": "https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
-  "lives": [
-    {
-      "name": "vault776直播",
-      "type": 0,
-      "url": "https://vault776.github.io/vbox/test/live.txt",
-      "playerType": 1
-    }
   ]
+  
 }
