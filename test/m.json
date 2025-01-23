@@ -34,8 +34,7 @@
       "api": "https://vault776.github.io/vbox/test/play.txt",
       "searchable": 0, 
       "quickSearch": 0,
-      "filterable": 0,
-      "indexs": 1
+      "filterable": 0
     },
     {
       "key": "玩偶",
