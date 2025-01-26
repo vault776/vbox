@@ -1,0 +1,61 @@
+直接用AI提问： “生成tvbox播放视频清单，要求视频播放页有多个源可以切换”
+
+{
+    "title": "我的视频清单__同一视频多个播放线路",
+    "group": [
+        {
+            "name": "热门电影",
+            "list": [
+                {
+                    "name": "电影 A",
+                    "pic": "https://example.com/movie_a_poster.jpg",
+                    "vod_id": "movie_a",
+                    "vod_play_from": "源1$源2$源3",
+                    "vod_play_url": "https://source1.com/movie_a.mp4$https://source2.com/movie_a.mp4$https://source3.com/movie_a.mp4"
+                },
+                {
+                    "name": "电影 B",
+                    "pic": "https://example.com/movie_b_poster.jpg",
+                    "vod_id": "movie_b",
+                    "vod_play_from": "源1$源2$源3",
+                    "vod_play_url": "https://source1.com/movie_b.mp4$https://source2.com/movie_b.mp4$https://source3.com/movie_b.mp4"
+                }
+            ]
+        },
+        {
+            "name": "热门电视剧",
+            "list": [
+                {
+                    "name": "电视剧 C",
+                    "pic": "https://example.com/tv_series_c_poster.jpg",
+                    "vod_id": "tv_series_c",
+                    "vod_play_from": "源1$源2$源3",
+                    "vod_play_url": "第1集$https://source1.com/tv_series_c_ep1.mp4#第2集$https://source1.com/tv_series_c_ep2.mp4#第3集$https://source1.com/tv_series_c_ep3.mp4$第1集$https://source2.com/tv_series_c_ep1.mp4#第2集$https://source2.com/tv_series_c_ep2.mp4#第3集$https://source2.com/tv_series_c_ep3.mp4$第1集$https://source3.com/tv_series_c_ep1.mp4#第2集$https://source3.com/tv_series_c_ep2.mp4#第3集$https://source3.com/tv_series_c_ep3.mp4"
+                }
+            ]
+        }
+    ]
+}
+
+
+代码解释
+整体结构：
+title：配置文件的标题，可自定义。
+group：视频分组数组，可包含多个分组，如 “热门电影”“热门电视剧” 等。
+分组结构：
+name：分组名称。
+list：该分组下的视频列表，每个视频项是一个对象。
+视频项结构：
+name：视频名称。
+pic：视频海报图片的 URL。
+vod_id：视频的唯一标识符，可自定义。
+vod_play_from：播放源名称，多个源用 $ 分隔。
+vod_play_url：播放源的 URL，多个源用 $ 分隔。对于电视剧，每集的信息用 # 分隔，格式为 “集数 $ 视频 URL”。
+使用方法
+将上述代码保存为一个 .json 文件，例如 my_video_list.json。
+打开 TVBox 应用。
+在 TVBox 中找到 “配置地址” 或 “导入配置” 选项，输入保存的 JSON 文件的本地路径或在线 URL。
+点击 “确定” 或 “应用”，等待加载完成后，即可在播放视频时切换不同的源。
+注意事项
+确保提供的视频源 URL 是有效的，且可正常访问。
+部分视频源可能需要特定的网络环境或权限才能访问。
